@@ -30,6 +30,12 @@
     "no-use-before-define": "off",
     "import/prefer-default-export": "off",
     "prettier/prettier": "error",
+    "@typescript-eslint/explicit-funcion-return-type": [
+      "error",
+      {
+        "allowExpressions": true
+      }
+    ],
     "import/extensions": [
       "error",
       "ignorePackages",
